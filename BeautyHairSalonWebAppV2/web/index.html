@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kimè Nail,Hair & Beauty Salon</title>
+  <link rel="icon" type="image/jpg" href="logo2.jpg" />
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+      color: #333;
+    }
+
+    nav {
+      background-color: #333;
+      overflow: hidden;
+    }
+
+    nav a {
+      float: left;
+      display: block;
+      color: #ccc;
+      text-align: center;
+      padding: 20px 130px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      background-color: #575757;
+      color: white;
+    }
+    .hero {
+     background: 
+    linear-gradient(to right, rgba(91, 73, 59, 0.8), rgba(250, 217, 193, 0.8)),
+    url(logo.jpeg);
+      background-size: cover;
+      text-align: center;
+      padding: 50px 20px;
+      color: #fff;
+    }
+
+    .hero img {
+      width: 150px;
+      border-radius: 50%;
+    }
+
+    .section {
+      padding: 50px 20px;
+     background: linear-gradient(to right, rgba(160, 161, 156, 0.8), rgba(250, 245, 241, 0.8));
+   
+    }
+
+    .section img {
+      width: 100%;
+      max-width: 600px;
+      height: auto;
+      border-radius: 10px;
+      display: block;
+      margin: 0 auto 20px;
+    }
+
+    .section-content {
+      max-width: 800px;
+      margin: auto;
+      text-align: center;
+    }
+
+    .section-content h1 {
+      margin-bottom: 10px;
+      font-size: 2rem;
+    }
+
+    .section-content p {
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      border: 2px solid #555;
+      background-color: transparent;
+      color: #555;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #555;
+      color: #fff;
+    }
+
+    footer {
+      background: linear-gradient(to left, rgba(160, 161, 156, 0.8), rgba(250, 245, 241, 0.8));
+      color: #333;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    .footer-columns {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      text-align: left;
+    }
+
+    .footer-column {
+      flex: 1 1 200px;
+      margin: 20px;
+    }
+
+    .footer-column h6 {
+      font-weight: bold;
+    }
+
+    .footer-column a {
+      color: dimgray;
+      text-decoration: none;
+    }
+
+    .footer-column a:hover {
+      color: #333;
+    }
+
+    .insta {
+      width: 20px;
+      height: 20px;
+      vertical-align: middle;
+    }
+
+    @media (max-width: 768px) {
+      nav a {
+        float: none;
+        display: block;
+        text-align: left;
+      }
+
+      .footer-columns {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .section-content h1 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="AboutUs.html">About Us</a>
+    <a href="Services.html">Services</a>
+    <a href="Contact Us.html">Feedback</a>
+  </nav>
+
+  <div class="hero">
+    <img src="logo2.jpg" alt="logo image" />
+    <h1>Kimè Nail,Hair & Beauty Salon</h1>
+    <p>Where Glamour Meets Perfection - Unveil Your Beauty at Kimè</p>
+  </div>
+
+  <div class="section">
+    <div class="section-content">
+      <img src="Nail Design.jpeg" alt="Nail Design" style="width:250px;height: 250px;border-radius: 45%"/>
+      <h1>Advanced Nail Design</h1>
+      <p>Transform your nails into works of art. From chic to bold, we bring your vision to life.</p>
+      <p>From R470 • 1 Hour</p>
+      <a href="NailAppointment.html" class="btn">Book an Appointment</a>
+        <a href="ViewBooking.html" class="btn" style="margin-right: 10px;">View Booking</a>
+  <a href="EditBooking.html" class="btn">Edit Booking</a>
+    </div>
+  </div>
+
+  <!-- Repeat the section below for other services -->
+  <div class="section">
+    <div class="section-content">
+      <img src="ca49dc42-ffee-4ab2-abef-3bd1d344640d.jpeg" alt="Pedicure" style="width:250px;height: 250px;border-radius: 45%"/>
+      <h1>Gel Pedicure</h1>
+      <p>Enjoy vibrant, chip-resistant color in a relaxing spa atmosphere.</p>
+      <p>From R240 • 1 Hour</p>
+      <a href="AddPedicureAppointment.html" class="btn">Book an Appointment</a>
+        <a href="ViewPedicureBooking.html" class="btn" style="margin-right: 10px;">View Booking</a>
+  <a href="EditBooking.html" class="btn">Edit Booking</a>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-content">
+      <img src="12d4756e-1ba1-42bc-b12b-9885beca3a99.jpeg" alt="Massage" style="width:250px;height: 250px;border-radius: 45%"/>
+      <h1>Massage</h1>
+      <p>Relax and unwind with our personalized massage treatments.</p>
+      <p>From R320 • 1 Hour</p>
+      <a href="AddMassageAppointment.html" class="btn">Book an Appointment</a>
+        <a href="ViewMassageBooking.html" class="btn" style="margin-right: 10px;">View Booking</a>
+  <a href="EditMassageBooking.html" class="btn">Edit Booking</a>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-content">
+      <img src="Pore refining clay facial mask lifts, firms and….jpeg" alt="Facial" style="width:250px;height: 250px;border-radius: 45%"/>
+      <h1>Firming Facial</h1>
+      <p>Rejuvenate your skin for a firmer, fresher look.</p>
+      <p>From R490 • 1 Hour</p>
+      <a href="AddFacialAppointment.html" class="btn">Book an Appointment</a>
+        <a href="ViewFacialBooking.html" class="btn" style="margin-right: 10px;">View Booking</a>
+  <a href="EditFacialBooking.html" class="btn">Edit Booking</a>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-content">
+      <img src="dcd83b91-8c2f-4df5-a989-c1d0270b0cb5.jpeg" alt="Hair" style="width:250px;height: 250px;border-radius: 45%"/>
+      <h1>Hair</h1>
+      <p>From cuts to color, our stylists help you look and feel amazing.</p>
+      <p>From R490 • 1 Hour</p>
+      <a href="AddHairAppointment.html" class="btn">Book an Appointment</a>
+        <a href="ViewHairBooking.html" class="btn" style="margin-right: 10px;">View Booking</a>
+  <a href="EditHairBooking.html" class="btn">Edit Booking</a>
+  
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-columns">
+      <div class="footer-column">
+          <h6 style="font-size:15px">Kimè Nail, Hair & Beauty Salon</h6>
+        <img src="logo2.jpg" alt="Logo" style="width: 150px; border-radius: 50%;" />
+      </div>
+      <div class="footer-column">
+        <h6 style="font-size:15px">Services</h6>
+        <p><a href="#">Advanced Nail Design</a></p>
+        <p><a href="#">Gel Pedicure</a></p>
+        <p><a href="#">Massage</a></p>
+        <p><a href="#">Firming Facial</a></p>
+        <p><a href="#">Hair</a></p>
+      </div>
+      <div class="footer-column">
+        <h6 style="font-size:15px">Useful Links</h6>
+        <p><a href="Kime Nail & beauty salon.html">Home</a></p>
+        <p><a href="AboutUs.html">About Us</a></p>
+        <p><a href="Services.html">Services</a></p>
+        <p><a href="Contact Us.html">Feedback</a></p>
+      </div>
+      <div class="footer-column">
+        <h6 style="font-size:15px">Contact</h6>
+        <p>202 Ouklip Rd, Heiderkruh, JHB</p>
+        <p>kime.Salon@kime.com</p>
+        <p>+27 1 984 675 88</p>
+        <p>+27 76 243 521 99</p>
+        <p>
+          <a href="http://instagram.com/_u/kime.salon/" class="instaLink">
+            <img src="instagram.png" class="insta" alt="Instagram" /> kime.salon
+          </a>
+        </p>
+      </div>
+    </div>
+    <p>© 2025 Kimè Nail, Hair & Beauty Salon</p>
+  </footer>
+
+</body>
+</html>
